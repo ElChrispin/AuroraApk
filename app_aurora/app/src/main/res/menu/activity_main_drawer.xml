@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:checkableBehavior="single"
+
+        >
+        <item android:title="Luces">
+
+        <menu>
+            <item
+                android:title="Baño"
+                app:actionViewClass="android.widget.Switch"
+                app:showAsAction="ifRoom"
+                android:id="@+id/nav_lucesBaño"
+                android:icon="@drawable/luces"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+
+
+                />
+
+            <item
+                android:id="@+id/nav_lucesCochera"
+                android:icon="@drawable/luces"
+                app:actionViewClass="android.widget.Switch"
+                android:title="Cochera"
+
+
+                />
+            <item
+                android:id="@+id/nav_lucesCocina"
+                android:icon="@drawable/luces"
+                android:title="Cocina"
+                app:actionViewClass="android.widget.Switch"
+
+                />
+            <item
+                android:id="@+id/nav_lucesComedor"
+                android:icon="@drawable/luces"
+                android:title="Comedor"
+                app:actionViewClass="android.widget.Switch"
+                />
+            <item
+                android:id="@+id/nav_lucesHabitación"
+                android:icon="@drawable/luces"
+                android:title="Habitación"
+                app:actionViewClass="android.widget.Switch"
+                />
+            <item
+                android:id="@+id/nav_lucesSala"
+                android:icon="@drawable/luces"
+                android:title="Sala"
+                app:actionViewClass="android.widget.Switch"
+                />
+            <item
+                android:id="@+id/nav_lucesServicio"
+                android:icon="@drawable/luces"
+                android:title="Servicio"
+                app:actionViewClass="android.widget.Switch"
+                />
+        </menu>
+        </item>
+    </group>
+
+    <item android:title="Seguridad">
+        <menu>
+            <item
+                android:id="@+id/nav_alarm"
+                android:icon="@drawable/alarm"
+                app:actionViewClass="android.widget.Switch"
+                android:title="Alarma" />
+        </menu>
+    </item>
+
+    <item android:title="Electrodomésticos">
+        <menu>
+            <item
+                android:id="@+id/nav_Televisión"
+                android:icon="@drawable/tv"
+                app:actionViewClass="android.widget.Switch"
+                android:title="Televición"
+
+                />
+            <item
+                android:id="@+id/nav_Estéreo"
+                android:icon="@drawable/radio"
+                app:actionViewClass="android.widget.Switch"
+                android:title="Estéreo" />
+        </menu>
+
+    </item>
+
+    <item android:title="Entrada">
+        <menu>
+            <item
+                android:id="@+id/nav_Portón"
+                android:icon="@drawable/porton"
+                app:actionViewClass="android.widget.Switch"
+                android:title="Portón" />
+
+        </menu>
+    </item>
+
+</menu>
